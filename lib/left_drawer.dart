@@ -12,8 +12,14 @@ class left_drawer extends StatelessWidget {
       child: ListView(
         children: const [
           UserAccountsDrawerHeader(
-            accountName: Text("Vannaxay", style: TextStyle(color: Colors.red),),
-            accountEmail: Text("Vannaxay@gmail,com",style: TextStyle(color: Colors.red),),
+            accountName: Text(
+              "Vannaxay",
+              style: TextStyle(color: Colors.red),
+            ),
+            accountEmail: Text(
+              "Vam@gmail,com",
+              style: TextStyle(color: Colors.red),
+            ),
             currentAccountPicture: Icon(
               Icons.face,
               size: 48.0,
