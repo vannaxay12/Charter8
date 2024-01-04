@@ -31,7 +31,7 @@ class GridViewBuilderWidget extends StatelessWidget {
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: <Widget>[
-                  Icon(GridView
+                  Icon(
                     _iconList[index],
                     size: 48.0,
                     color: Colors.lightGreen,
