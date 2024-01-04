@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'birthday.dart';
-import 'gratitude.dart';
-import 'reminder.dart';
+import 'package:vannaxay/charter8/birthday.dart';
+import 'package:vannaxay/charter8/gratitude.dart';
+import 'package:vannaxay/charter8/reminder.dart';
 
 class listmenu extends StatefulWidget {
   const listmenu({super.key});

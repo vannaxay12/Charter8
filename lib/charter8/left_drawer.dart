@@ -1,17 +1,25 @@
 import 'package:flutter/material.dart';
-import 'menu_list_title.dart';
+import 'package:vannaxay/charter8/birthday.dart';
+import 'package:vannaxay/charter8/birthday.dart';
+import 'package:vannaxay/charter8/menu_list_title.dart';
 
-class right_drawer extends StatelessWidget {
-  const right_drawer({super.key});
+class left_drawer extends StatelessWidget {
+  const left_drawer({Key? key});
 
   @override
   Widget build(BuildContext context) {
-     return Drawer(
+    return Drawer(
       child: ListView(
         children: const [
           UserAccountsDrawerHeader(
-            accountName: Text("Vannaxay"),
-            accountEmail: Text("Vannaxay@gmail,com"),
+            accountName: Text(
+              "Vannaxay",
+              style: TextStyle(color: Colors.red),
+            ),
+            accountEmail: Text(
+              "Vam@gmail,com",
+              style: TextStyle(color: Colors.red),
+            ),
             currentAccountPicture: Icon(
               Icons.face,
               size: 48.0,
@@ -19,7 +27,7 @@ class right_drawer extends StatelessWidget {
             ),
             decoration: BoxDecoration(
               image: DecorationImage(
-                image: AssetImage('images/iopl.jpg'),
+                image: AssetImage('images/daylacky.jpg'),
                 fit: BoxFit.cover,
               ),
             ),
@@ -33,7 +41,7 @@ class right_drawer extends StatelessWidget {
             title: Text("Gratitude"),
           ),
           ListTile(
-            leading: Icon(Icons.time_to_leave),
+            leading: Icon(Icons.lock_clock),
             title: Text("Remider"),
           ),
           Divider(
@@ -47,5 +55,4 @@ class right_drawer extends StatelessWidget {
       ),
     );
   }
-
 }

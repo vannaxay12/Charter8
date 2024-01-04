@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'left_drawer.dart';
-import 'right_drawer.dart';
-import 'birthday.dart';
-import 'gratitude.dart';
-import 'reminder.dart';
+import 'package:vannaxay/charter8/left_drawer.dart';
+import 'package:vannaxay/charter8/right_drawer.dart';
+import 'package:vannaxay/charter8/birthday.dart';
+import 'package:vannaxay/charter8/gratitude.dart';
+import 'package:vannaxay/charter8/reminder.dart';
 
 class home extends StatefulWidget {
   const home({super.key});
