@@ -15,27 +15,37 @@ class _barista_cardState extends State<barista_card> {
         backgroundColor: Colors.green,
       ),
       body: Card(
-        elevation: 8.0,
+        elevation: 10.0,
         color: Colors.white,
-        margin: EdgeInsets.all(20.0),
+        margin: EdgeInsets.all(10.0),
         child: Column(
-          
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           crossAxisAlignment: CrossAxisAlignment.center,
-
           children: <Widget>[
-            SizedBox(height:10 ,),
-            Container(margin: EdgeInsets.all(10.0),
-                height: 100,
+            SizedBox(
+              height: 10,
+            ),
+            Container(
+                margin: EdgeInsets.all(10.0),
+                height: 120,
                 alignment: Alignment.topCenter,
-                decoration: BoxDecoration(borderRadius:BorderRadius.circular(0), color: Colors.white,boxShadow:[BoxShadow(color: Colors.black,blurRadius: 5,offset: Offset(8,8)),],),
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(0),
+                  color: Colors.white,
+                  boxShadow: [
+                    BoxShadow(
+                        color: Colors.black,
+                        blurRadius: 5,
+                        offset: Offset(8, 8)),
+                  ],
+                ),
                 child: Column(children: [
                   Text(
                     'Barista',
                     textAlign: TextAlign.center,
                     style: TextStyle(
                       fontWeight: FontWeight.bold,
-                      fontSize: 48.0,
+                      fontSize: 40.0,
                       color: Colors.orange,
                     ),
                   ),
@@ -46,21 +56,24 @@ class _barista_cardState extends State<barista_card> {
                   ),
                 ])), //
             Text("DEFAULT",
-                style: TextStyle(fontSize: 40, color: Colors.black)),
- SizedBox(height:10 ,),
-            Container(margin: EdgeInsets.all(10.0),
-                height: 100,
+                style: TextStyle(fontSize: 13, color: Colors.black)),
+            SizedBox(
+              height: 10,
+            ),
+            Container(
+                margin: EdgeInsets.all(10.0),
+                height: 120,
                 alignment: Alignment.topCenter,
-                decoration:
-                    BoxDecoration(borderRadius: BorderRadius.circular(40.0),color: Colors.white),
-                    
+                decoration: BoxDecoration(
+                    borderRadius: BorderRadius.circular(40.0),
+                    color: Colors.white),
                 child: Column(children: [
                   Text(
                     'Barista',
                     textAlign: TextAlign.center,
                     style: TextStyle(
                       fontWeight: FontWeight.bold,
-                      fontSize: 48.0,
+                      fontSize: 40.0,
                       color: Colors.orange,
                     ),
                   ),
@@ -71,20 +84,25 @@ class _barista_cardState extends State<barista_card> {
                   ),
                 ])),
             Text("StadiumBorder",
-                style: TextStyle(fontSize: 40, color: Colors.black)),
-                 SizedBox(height:10 ,),
-            Container(margin: EdgeInsets.all(10.0),
-                height: 100,
+                style: TextStyle(fontSize: 13, color: Colors.black)),
+            SizedBox(
+              height: 10,
+            ),
+            Container(
+                margin: EdgeInsets.all(10.0),
+                height: 120,
                 alignment: Alignment.topCenter,
-                decoration:
-                    BoxDecoration(borderRadius: BorderRadius.circular(10),       border: Border(bottom: BorderSide(width: 3,color: Colors.orange))),
+                decoration: BoxDecoration(
+                    borderRadius: BorderRadius.circular(10),
+                    border: Border(
+                        bottom: BorderSide(width: 3, color: Colors.orange))),
                 child: Column(children: [
                   Text(
                     'Barista',
                     textAlign: TextAlign.center,
                     style: TextStyle(
                       fontWeight: FontWeight.bold,
-                      fontSize: 48.0,
+                      fontSize: 40.0,
                       color: Colors.orange,
                     ),
                   ),
@@ -95,20 +113,28 @@ class _barista_cardState extends State<barista_card> {
                   ),
                 ])),
             Text("UnderlineInputBorder",
-                style: TextStyle(fontSize: 40, color: Colors.black)),
- SizedBox(height:10 ,),
-            Container(margin: EdgeInsets.all(10.0),
-                height: 100,
+                style: TextStyle(fontSize: 13, color: Colors.black)),
+            SizedBox(
+              height: 10,
+            ),
+            Container(
+                margin: EdgeInsets.all(10.0),
+                height: 120,
                 alignment: Alignment.topCenter,
-                decoration:
-                    BoxDecoration(borderRadius: BorderRadius.circular(10),border:Border.all(width:2,color:Colors.orange,),),
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(10),
+                  border: Border.all(
+                    width: 2,
+                    color: Colors.orange,
+                  ),
+                ),
                 child: Column(children: [
                   Text(
                     'Barista',
                     textAlign: TextAlign.center,
                     style: TextStyle(
                       fontWeight: FontWeight.bold,
-                      fontSize: 48.0,
+                      fontSize: 40.0,
                       color: Colors.orange,
                     ),
                   ),
@@ -119,7 +145,7 @@ class _barista_cardState extends State<barista_card> {
                   ),
                 ])),
             Text("OutlineinputBorder",
-                style: TextStyle(fontSize: 40, color: Colors.black)),
+                style: TextStyle(fontSize: 13, color: Colors.black)),
           ],
         ),
       ),
