@@ -5,6 +5,7 @@ import 'package:vannaxay/charter9/Barista.dart';
 import 'package:vannaxay/charter9/last.dart';
 
 import 'Charter10 Building Layouts/main_layout_app.dart';
+import 'charter12Client Platform Channel/Client-Platform-Channel.dart';
 import 'charter9/Using The STACK/mainStack.dart';
 import 'charter9/Using The STACK/stack.dart';
 import 'charter9/Using the GridView extent/gridview_builder.dart';
@@ -149,6 +150,19 @@ class _MainderState extends State<Mainder> {
             onPressed: () {
               Navigator.push(context, MaterialPageRoute(builder: (context) {
                 return main_layout_app();
+              }));
+            },
+            style: TextButton.styleFrom(
+                backgroundColor: Colors.red,
+                textStyle: TextStyle(
+                  color: Colors.white,
+                )),
+          ),
+          TextButton(
+            child: Text("Charter 12 Writing Platform-Native Code"),
+            onPressed: () {
+              Navigator.push(context, MaterialPageRoute(builder: (context) {
+                return Client_Platform_Channel_App();
               }));
             },
             style: TextButton.styleFrom(
